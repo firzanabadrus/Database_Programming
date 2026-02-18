@@ -1,0 +1,60 @@
+[{
+  "_id": "U1001",
+  "name": "Ahmad Ali",
+  "email": "ali@gmail.com",
+  "phone": "012-4358876",
+  "addresses": [
+    {
+      "label": "Home",
+      "street": "No 12, Jalan Teknologi",
+      "city": "Skudai",
+      "postcode": 81310
+    }
+  ],
+  "createdAt": "2025-01-05"
+},
+{
+  "_id": "U1002",
+  "name": "Nur Aisyah",
+  "email": "aisyah@gmail.com",
+  "phone": "017-3325678",
+  "address": [
+    {
+      "label": "Home",
+      "street": "No 45, Jalan Harmoni",
+      "city": "Johor Bahru",
+      "postcode": 81200
+    }
+  ],
+  "createdAt": "2025-01-07"
+},
+{
+  "_id": "U1003",
+  "name": "Daniel Lee",
+  "email": "daniel@gmail.com",
+  "phone": "016-7788990",
+  "addresses": [
+    {
+      "label": "Apartment",
+      "street": "Block C, Taman Universiti",
+      "city": "Skudai",
+      "postcode": 81310
+    }
+  ],
+  "createdAt": "2025-01-08"
+},
+{
+  "_id": "U1004",
+  "name": "Siti Amina",
+  "email": "amina@gmail.com",
+  "phone": "013-1234567",
+  "addresses": [
+    {
+      "label": "Office",
+      "street": "Jalan Skudai",
+      "city": "Skudai",
+      "postcode": 81300
+    }
+  ],
+  "createdAt": "2026-01-09"
+}]

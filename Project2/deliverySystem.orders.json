@@ -1,0 +1,47 @@
+[{
+  "_id": "O3001",
+  "userId": "U1001",
+  "restaurantId": "R2001",
+  "deliveryPartnerId": "D4001",
+  "orderItems": [
+    {
+      "itemName": "Chicken Burger",
+      "quantity": 2,
+      "price": 8.5
+    },
+    {
+      "itemName": "Cheese Fries",
+      "quantity": 1,
+      "price": 5
+    }
+  ],
+  "totalAmount": 22,
+  "orderStatus": "Delivered",
+  "OrderDate": "2025-01-06",
+  "deliveryAddress": {
+    "street": "No 12, Jalan Teknologi",
+    "city": "Skudai",
+    "postcode": 81310
+  }
+},
+{
+  "_id": "O3002",
+  "userId": "U1002",
+  "restaurantId": "R2002",
+  "deliveryPartnerId": "D4002",
+  "orderItems": [
+    {
+      "itemName": "Nasi Ayam",
+      "quantity": 1,
+      "price": 9
+    }
+  ],
+  "totalAmount": 9,
+  "orderStatus": "Out for delivery",
+  "orderDate": "2025-01-08",
+  "deliveryAddress": {
+    "street": "No 45, Jalan Harmoni",
+    "city": "Johor Bahru",
+    "postcode": 81200
+  }
+}]

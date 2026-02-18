@@ -1,0 +1,33 @@
+[{
+  "_id": "D4001",
+  "name": "Ahmad Zikri",
+  "phone": "012-98765432",
+  "vehicle": {
+    "type": "Motorcycle",
+    "plateNumber": "JAB1234"
+  },
+  "availabilityStatus": "Busy",
+  "joinedDate": "2024-11-15"
+},
+{
+  "_id": "D4002",
+  "name": "Faris",
+  "phone": "018-4567765",
+  "vehicle": {
+    "type": "Motorcycle",
+    "plateNumber": "JCM5678"
+  },
+  "availabilityStatus": "Busy",
+  "joinedDate": "2024-12-01"
+},
+{
+  "_id": "D4003",
+  "name": "Nur Haziqah",
+  "phone": "0119988776",
+  "vehicle": {
+    "type": "Car",
+    "plateNumber": "JQP9981"
+  },
+  "availabilityStatus": "Available",
+  "joinedDate": "2025-01-02T11:20:00Z"
+}]
