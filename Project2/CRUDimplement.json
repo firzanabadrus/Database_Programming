@@ -1,0 +1,42 @@
+--insertOne()
+db.users.insertOne({
+ "_id": "U1004",
+  "name": "Siti Amina",
+  "email": "amina@gmail.com",
+  "phone": "013-1234567",
+  "addresses": [{
+	"label": "Office", 
+	"street": "Jalan Skudai", 
+	"city": "Skudai", 
+	"postcode": 81300}],
+  "createdAt": "2026-01-09"
+});
+
+--find()
+db.restaurants.find({ "isActive": true }, { "restaurantName": 1, "location": 1, "_id": 0 });
+
+--or and gt
+db.orders.find({
+  $or: [
+    { "totalAmount": { $gt: 20 } },
+    { "orderStatus": "Preparing" }
+  ]
+});
+
+--find array queries
+db.restaurants.find({ "menu.itemName": "Cheese Fries" });
+
+--updateOne()
+db.deliveryPartners.updateOne(
+  { "_id": "D4001" },
+  { $set: { "availabilityStatus": "Busy" } }
+);
+
+--updateMany()
+db.restaurants.updateMany(
+  { "_id": "R2001" },
+  { $inc: { "menu.$[].price": 1.00 } }
+);
+
+--deleteOne()
+db.orders.deleteOne({ "_id": "O3003" });
